@@ -1,10 +1,9 @@
 ---
 
-# HDC랩스 NOVA 3rd-template
+# HDC랩스 NOVA 3rd
 
-HDC랩스 NOVA 3rd-template 레포지토리입니다.
+HDC랩스 NOVA 3rd 레포지토리입니다.
 
-!
 
 ## 🛠 Tech Stack
 
@@ -172,3 +171,4 @@ HDC랩스 NOVA 3rd-template 레포지토리입니다.
 * **기술 적합성**: 실시간성은 MQTT, 고성능은 Redis 등 문제 해결에 최적인 기술 스택 선정의 중요성 체감
 
 ---
+
