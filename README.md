@@ -204,7 +204,7 @@ LLM Response
 
 ---
 
-# ⚙ Key Technical Implementation
+# 중요 구현 기술[Key Technical Implementation]
 
 ## RAG 기반 AI 챗봇
 
@@ -236,7 +236,7 @@ QueryDSL 기반 동적 쿼리 구현
 
 ---
 
-# 📊 Performance Optimization
+# 성능 개선[Performance Optimization]
 
 외부 API 호출 병목 문제 해결
 
@@ -285,6 +285,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
