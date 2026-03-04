@@ -25,15 +25,15 @@
 
 # 구조물 시제품[Hardware Prototype]
 
-### 전체
+### 전체 구조물 사진
 
 <img width="1332" height="644" src="https://github.com/user-attachments/assets/b35429ef-e9cc-4a6c-aafa-c3c71e6165da">
 
-### AI 스피커 & 시설 출입
+### AI 스피커 & 시설 출입 QR 인식기 사진
 
 <img width="837" height="699" src="https://github.com/user-attachments/assets/2f442a9d-7a86-46e5-9372-8db8942f9235">
 
-### 집 내부
+### 집 내부 사진
 
 <img width="1509" height="674" src="https://github.com/user-attachments/assets/ce199543-6589-427e-8b24-04970d20f27e">
 
@@ -285,6 +285,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
