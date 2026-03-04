@@ -150,11 +150,19 @@ LLM Response
 
 ---
 
-# Service Screens
+# 서비스 화면[Service Screens]
 
 <img width="2396" height="1287" src="https://github.com/user-attachments/assets/3dc8e47e-50e3-45d0-a1d2-9aa54c1045f5">
 
 <img width="2415" height="1284" src="https://github.com/user-attachments/assets/8057825c-6e6d-4d57-adce-8269d653a64a">
+
+
+---
+
+# 개체관계도[Entity-Relationship Diagram]
+
+<img width="2511" height="2387" alt="Untitled (1)" src="https://github.com/user-attachments/assets/b6af497c-0bf3-4fb8-a172-41be46c33f2f" />
+
 
 ---
 
@@ -285,6 +293,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
