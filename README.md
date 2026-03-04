@@ -228,49 +228,6 @@
 * **명확한 목표**: 사용자 여정(User Journey)을 먼저 정의한 것이 효율적인 개발의 핵심이었음
 * **기술 적합성**: 실시간성은 MQTT, 고성능은 Redis 등 문제 해결에 최적인 기술 스택 선정의 중요성 체감
 
----
-
-# 🚀 Getting Started
-
-## 사전 요구사항
-
-- **Java 17**, **Node.js 20+**, **Docker & Docker Compose**
-- **Arduino IDE** (IoT 하드웨어 연동 시)
-- **Expo CLI** (`npm install -g expo-cli`) — 모바일 앱 개발 시
-
-## 백엔드 실행
-
-```bash
-cd backend
-cp src/main/resources/config/secrets.yaml.example src/main/resources/config/secrets.yaml
-# secrets.yaml에 API 키 설정 후
-./gradlew bootRun
-```
-
-## 프론트엔드 (관리자 웹) 실행
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-## 모바일 앱 실행
-
-```bash
-cd android
-npm install
-npx expo start
-```
-
-## Docker Compose (인프라 전체)
-
-```bash
-cd backend/docker
-docker-compose up -d
-```
-
-
 
 
 
