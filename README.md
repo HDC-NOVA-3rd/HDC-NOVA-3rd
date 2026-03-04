@@ -93,11 +93,11 @@
 
 | 이름                      | 역할              | GitHub Stats                                                                                                                                         | 주요 담당 업무                                                                                                                                                        |
 | ----------------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **안창석**<br/> | Team Leader         | <a href="https://github.com/AhnCSK"><img src="https://github-readme-stats.vercel.app/api?username=AhnCSK&show_icons=true&theme=default" height="140"/></a> | 🔹 관리자 인증 시스템 및 보안 로직 구현<br/>🔹 민원 및 고지서 관리(PDF/Excel) 구현<br/>🔹 QueryDSL 기반 DB 조회 성능 최적화<br/>🔹 관리자 전용 웹 대시보드 구현<br/>🔹 앱 민원/고지서 확인 구현                         |
-| **이희원**                 | AI & Design     | <a href="https://github.com/heewonn09"><img src="https://github-readme-stats.vercel.app/api?username=heewonn09&show_icons=true&theme=default" height="140"/></a> | 🔹 AI 파이프라인 설계 및 총괄 관리<br/>🔹 Gemini, OpenRouter 기반 챗봇 구축<br/>🔹 Pinecone 활용 RAG 파이프라인 구축<br/>🔹 앱 챗봇 UI 구현<br/>🔹 서비스 GUI 및 물리 구조물 설계                          |
-| **양준길**                 | Infra & Backend | <a href="https://github.com/wnsrlf0721"><img src="https://github-readme-stats.vercel.app/api?username=wnsrlf0721&show_icons=true&theme=default" height="140"/></a> | 🔹 CI/CD 파이프라인 및 Docker Compose 구축<br/>🔹 JWT 및 OAuth 2.0 기반 로그인 시스템 구현<br/>🔹 시설 예약, QR 출입 시스템, FCM 푸시 알림 구현<br/>🔹 부하 테스트 및 API 성능 병목 개선<br/>🔹 출입 관리 디바이스 구현 |
-| **천경신**                 | AI & IoT        | <a href="https://github.com/sthasq"><img src="https://github-readme-stats.vercel.app/api?username=sthasq&show_icons=true&theme=default" height="140"/></a> | 🔹 화재 및 가스 감지 로직 및 MQTT 토픽 총괄 설계 및 브로커 구축<br/>🔹 Hugging Face 기반 음성인식 아키텍처 구현<br/>🔹 안전 관제 대시보드 및 공지사항 웹/앱 기능 개발<br/>🔹 MQTT 디바이스 제어 연동 및 AI 스피커 구현<br/>🔹 웹 인터페이스 디자인      |
-| **최우영**                 | IoT & Hardware  | <a href="https://github.com/eddy0417"><img src="https://github-readme-stats.vercel.app/api?username=eddy0417&show_icons=true&theme=default" height="140"/></a> | 🔹 디바이스 상태 API 및 환경 센서 데이터 연동<br/>🔹 사용자 설정 모드 스케줄러(Automation) 구현<br/>🔹 홈/디바이스 제어 UI 및 기능 구현<br/>🔹 IoT 물리 구조물 설계 및 하드웨어 구축<br/>🔹 OpenWeather API 연동         |
+| **안창석**<br/> | Team Leader         | https://github.com/AhnCSK | 🔹 관리자 인증 시스템 및 보안 로직 구현<br/>🔹 민원 및 고지서 관리(PDF/Excel) 구현<br/>🔹 QueryDSL 기반 DB 조회 성능 최적화<br/>🔹 관리자 전용 웹 대시보드 구현<br/>🔹 앱 민원/고지서 확인 구현                         |
+| **이희원**                 | AI & Design     | https://github.com/heewonn09 | 🔹 AI 파이프라인 설계 및 총괄 관리<br/>🔹 Gemini, OpenRouter 기반 챗봇 구축<br/>🔹 Pinecone 활용 RAG 파이프라인 구축<br/>🔹 앱 챗봇 UI 구현<br/>🔹 서비스 GUI 및 물리 구조물 설계                          |
+| **양준길**                 | Infra & Backend | https://github.com/wnsrlf0721 | 🔹 CI/CD 파이프라인 및 Docker Compose 구축<br/>🔹 JWT 및 OAuth 2.0 기반 로그인 시스템 구현<br/>🔹 시설 예약, QR 출입 시스템, FCM 푸시 알림 구현<br/>🔹 부하 테스트 및 API 성능 병목 개선<br/>🔹 출입 관리 디바이스 구현 |
+| **천경신**                 | AI & IoT        |https://github.com/sthasq| 🔹 화재 및 가스 감지 로직 및 MQTT 토픽 총괄 설계 및 브로커 구축<br/>🔹 Hugging Face 기반 음성인식 아키텍처 구현<br/>🔹 안전 관제 대시보드 및 공지사항 웹/앱 기능 개발<br/>🔹 MQTT 디바이스 제어 연동 및 AI 스피커 구현<br/>🔹 웹 인터페이스 디자인      |
+| **최우영**                 | IoT & Hardware  | https://github.com/eddy0417| 🔹 디바이스 상태 API 및 환경 센서 데이터 연동<br/>🔹 사용자 설정 모드 스케줄러(Automation) 구현<br/>🔹 홈/디바이스 제어 UI 및 기능 구현<br/>🔹 IoT 물리 구조물 설계 및 하드웨어 구축<br/>🔹 OpenWeather API 연동         |
 
 
 # 요구사항 정의서
@@ -227,6 +227,7 @@
 
 * **명확한 목표**: 사용자 여정(User Journey)을 먼저 정의한 것이 효율적인 개발의 핵심이었음
 * **기술 적합성**: 실시간성은 MQTT, 고성능은 Redis 등 문제 해결에 최적인 기술 스택 선정의 중요성 체감
+
 
 
 
