@@ -33,7 +33,7 @@
 
 <img width="837" height="699" src="https://github.com/user-attachments/assets/2f442a9d-7a86-46e5-9372-8db8942f9235">
 
-### 집 내부 환경
+### 집 내부
 
 <img width="1509" height="674" src="https://github.com/user-attachments/assets/ce199543-6589-427e-8b24-04970d20f27e">
 
@@ -285,6 +285,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
