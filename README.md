@@ -1,22 +1,109 @@
+<div align="center">
+
+# 🏠 NOVA — 스마트 아파트 통합관리 플랫폼
+
+**IoT와 AI를 결합한 차세대 스마트 아파트 통합관리 플랫폼**
+
+입주민 앱과 관리자 웹을 연동하여 주거 환경 제어 및 단지 운영을 효율화하는 올인원 시스템
+
+</div>
+
 ---
 
-# HDC랩스 NOVA 3rd
+## 📌 주요 기능
 
-HDC랩스 NOVA 3rd 레포지토리입니다.
+| 기능 | 설명 |
+|------|------|
+| 🏡 **홈 IoT 제어** | MQTT 기반 LED·FAN 실시간 제어, 온·습도 모니터링, 스케줄·모드 자동화 |
+| 🤖 **AI 챗봇 & 음성 비서** | RAG 기반 아파트 수칙 Q&A + "하이 노바" 호출어 음성 제어 (Gemini + Pinecone) |
+| 🔥 **화재 감지 자동화** | 가스·온도 센서 → 위험 판정 → 관제 알림 → 시설 자동 차단 |
+| 📅 **시설 예약 & QR 출입** | 커뮤니티 시설 예약 + QR 스캔 물리적 출입 통제 + Push 알림 |
+| 🏢 **관리자 대시보드** | 세대·민원·관리비 관리, 관제 모니터링 (QueryDSL + Stateless OTP 보안) |
+| 📱 **입주민 앱** | OAuth 간편 로그인, 공지사항, 민원 확인, 관리비 고지서 PDF 조회 |
 
+---
 
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend & App
 
+![React](https://img.shields.io/badge/React-19.2-61DAFB?logo=react&logoColor=white)
+![React Native](https://img.shields.io/badge/React_Native-0.81-61DAFB?logo=react&logoColor=white)
+![Expo](https://img.shields.io/badge/Expo-54-000020?logo=expo&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-7.2-646CFF?logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
+
 ### Backend
+
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-3.5.9-6DB33F?logo=springboot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?logo=openjdk&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?logo=springsecurity&logoColor=white)
+![QueryDSL](https://img.shields.io/badge/QueryDSL-5.0-0769AD)
+![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-85EA2D?logo=swagger&logoColor=black)
 
 ### Database & Real-time
 
+![MariaDB](https://img.shields.io/badge/MariaDB-10.6-003545?logo=mariadb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-7.0-DC382D?logo=redis&logoColor=white)
+![Mosquitto](https://img.shields.io/badge/Mosquitto-MQTT-3C5280?logo=eclipsemosquitto&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector_DB-000000?logo=pinecone&logoColor=white)
+
 ### AI & Infra
+
+![Gemini](https://img.shields.io/badge/Google_Gemini-AI-4285F4?logo=googlegemini&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?logo=grafana&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white)
 
 ---
 
+<!-- ============================================================
+  📸 시각화 자료 가이드 (이미지 추가 후 주석 제거)
+  ============================================================
+
+  아래 섹션들에 시각화 자료를 추가하세요.
+  이미지는 레포 내 docs/images/ 폴더를 만들어 저장하는 것을 권장합니다.
+
+  추천 시각화 자료:
+  1. 시스템 아키텍처 다이어그램 (전체 구조도)
+  2. 앱 스크린샷 (홈 IoT, 챗봇, 시설 예약 등 주요 화면 3~4장)
+  3. 관리자 웹 스크린샷 (대시보드, 민원 관리, 관제 화면 등 2~3장)
+  4. 화재 감지 자동화 흐름도
+  5. AI 챗봇 파이프라인 다이어그램 (Rule 기반 분기 → LLM/RAG 흐름)
+  6. CI/CD 파이프라인 다이어그램
+  7. 성능 개선 비교 그래프 (Before/After: 476ms → 53ms)
+  8. ERD (Entity-Relationship Diagram)
+  9. IoT 하드웨어 구성 사진
+  10. 데모 영상 GIF (앱 조작 → IoT 반응)
+
+  이미지 삽입 예시:
+  ![시스템 아키텍처](docs/images/architecture.png)
+  ![앱 메인화면](docs/images/app-main.png)
+
+  GIF 삽입 예시:
+  ![데모](docs/images/demo.gif)
+  ============================================================ -->
+
+## 🖼 시스템 아키텍처
+
+> 📍 *시스템 아키텍처 다이어그램을 추가해 주세요.*
+>
+> 입주민 앱(React Native) → Nginx(HTTPS) → Spring Boot API ↔ MariaDB / Redis / Pinecone
+>
+> Arduino 센서 → MQTT(Mosquitto) → Spring Boot → 관리자 웹(React) / Push 알림
+
+## 📱 서비스 화면
+
+> 📍 *앱 & 웹 스크린샷을 추가해 주세요.*
+>
+> | 입주민 앱 | 관리자 웹 |
+> |-----------|-----------|
+> | 홈 IoT 제어 화면 | 관제 대시보드 |
+> | AI 챗봇 화면 | 민원 관리 화면 |
+> | 시설 예약 화면 | 관리비 관리 화면 |
+
+---
 
 # 프로젝트 계획서
 
@@ -24,7 +111,7 @@ HDC랩스 NOVA 3rd 레포지토리입니다.
 
 * **프로젝트명**: IoT와 AI를 결합한 스마트 아파트 통합관리 플랫폼 (NOVA)
 * **목표**: 입주민 앱과 관리자 웹을 연동하여 주거 환경 제어 및 단지 운영을 효율화하는 올인원 시스템 구축
-* **기간**: 2026년 1월 - 2026년 2월
+* **기간**: 2026년 1월 - 2026년 3월
 
 ## 2. 프로젝트 일정
 
@@ -174,6 +261,97 @@ HDC랩스 NOVA 3rd 레포지토리입니다.
 
 * **명확한 목표**: 사용자 여정(User Journey)을 먼저 정의한 것이 효율적인 개발의 핵심이었음
 * **기술 적합성**: 실시간성은 MQTT, 고성능은 Redis 등 문제 해결에 최적인 기술 스택 선정의 중요성 체감
+
+---
+
+# 🚀 Getting Started
+
+## 사전 요구사항
+
+- **Java 17**, **Node.js 20+**, **Docker & Docker Compose**
+- **Arduino IDE** (IoT 하드웨어 연동 시)
+- **Expo CLI** (`npm install -g expo-cli`) — 모바일 앱 개발 시
+
+## 백엔드 실행
+
+```bash
+cd backend
+cp src/main/resources/config/secrets.yaml.example src/main/resources/config/secrets.yaml
+# secrets.yaml에 API 키 설정 후
+./gradlew bootRun
+```
+
+## 프론트엔드 (관리자 웹) 실행
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+## 모바일 앱 실행
+
+```bash
+cd android
+npm install
+npx expo start
+```
+
+## Docker Compose (인프라 전체)
+
+```bash
+cd backend/docker
+docker-compose up -d
+```
+
+---
+
+# 📋 발표 대본 팩트시트 (Fact Sheet)
+
+발표 대본에서 언급된 주요 기술적 주장을 코드베이스 기준으로 검증한 결과입니다.
+
+## ✅ 검증 완료 (코드에서 확인됨)
+
+| # | 발표 내용 | 검증 결과 | 근거 |
+|---|----------|----------|------|
+| 1 | React 기반 관리자 웹 | ✅ 확인 | `frontend/package.json` — React 19.2 + Vite 7.2 |
+| 2 | React Native 입주민 앱 | ✅ 확인 | `android/package.json` — React Native 0.81 + Expo 54 |
+| 3 | Spring Boot 백엔드 | ✅ 확인 | `backend/build.gradle` — Spring Boot 3.5.9, Java 17 |
+| 4 | QueryDSL 검색 최적화 | ✅ 확인 | `backend/build.gradle` — querydsl-jpa 5.0.0 |
+| 5 | Spring Security 보안 | ✅ 확인 | `backend/build.gradle` — spring-boot-starter-security |
+| 6 | MQTT (Mosquitto) 실시간 제어 | ✅ 확인 | `backend/docker/docker-compose.yml` — mosquitto 서비스, 포트 1883/9001 |
+| 7 | Redis 캐싱 | ✅ 확인 | `backend/build.gradle` + `docker-compose.yml` — Redis Alpine |
+| 8 | MariaDB 데이터베이스 | ✅ 확인 | `backend/build.gradle` — mariadb-java-client |
+| 9 | Gemini AI 모델 | ✅ 확인 | `backend/build.gradle` — spring-ai-starter-model-google-genai |
+| 10 | Pinecone 벡터 DB (RAG) | ✅ 확인 | `backend/.../chat/service/PineconeClient.java` |
+| 11 | OAuth 2.0 로그인 | ✅ 확인 | `backend/build.gradle` — spring-boot-starter-oauth2-client |
+| 12 | JWT 인증 | ✅ 확인 | `backend/build.gradle` — jjwt 0.12.6 |
+| 13 | Stateless OTP 관리자 인증 | ✅ 확인 | `backend/.../auth/otp/StatelessOtpServiceImpl.java` — HmacSHA256, 6자리, 5분 유효 |
+| 14 | "하이 노바" Wake Word | ✅ 확인 | `raspberry/voice_assistant/하이-노바_ko_raspberry-pi_v4_0_0/` — Picovoice Porcupine 모델 |
+| 15 | QR 출입 시스템 | ✅ 확인 | `android/.../QRCodeModal.tsx` (생성) + `raspberry/facility/qr_cam.py` (스캔) |
+| 16 | OpenWeather API 연동 | ✅ 확인 | `backend/.../weather/service/OpenWeatherService.java` |
+| 17 | Swagger API 문서 | ✅ 확인 | `backend/build.gradle` — springdoc-openapi 2.8.13 |
+| 18 | Docker Compose 배포 | ✅ 확인 | `backend/docker/docker-compose.yml` — 8개 서비스 구성 |
+| 19 | Prometheus/Grafana 모니터링 | ✅ 확인 | `docker-compose.yml` — prometheus + grafana + loki + promtail |
+| 20 | EAS 모바일 앱 배포 | ✅ 확인 | `android/eas.json` — Expo Application Services 설정 |
+| 21 | k6 부하 테스트 | ✅ 확인 | `backend/load-test/` — weather-test.js, reservation-test.js 등 |
+
+## ⚠️ 수정 필요 (발표 대본과 실제 코드 차이)
+
+| # | 발표 내용 | 실제 코드 | 권장 수정 |
+|---|----------|----------|----------|
+| 1 | "Firebase Push 알림" (슬라이드 #3) | Expo Notifications SDK 사용 (`expo-notifications`), Firebase FCM 직접 사용 아님 | → **"Push 알림"** 또는 **"Expo Push 알림"**으로 수정 |
+| 2 | "Whisper STT 모델" (슬라이드 #4) | HuggingFace API를 통한 원격 Whisper 추론 (`openai/whisper-large-v3-turbo`), 로컬 Whisper 아님 | → **"HuggingFace 기반 Whisper STT"**로 수정하면 더 정확 |
+| 3 | "GitHub Actions CI/CD" (슬라이드 #11) | `.github/workflows/` 디렉토리 없음, CI/CD 워크플로우 미구성 | → CI/CD 워크플로우 추가 필요 또는 발표에서 **"Docker Compose 기반 배포 자동화"**로 수정 |
+
+## ❓ 검증 불가 (증빙 자료 필요)
+
+| # | 발표 내용 | 비고 |
+|---|----------|------|
+| 1 | p95 응답시간 476ms → 53ms (9배 개선) | 부하 테스트 스크립트는 존재하나, 결과 데이터가 레포에 없음 → **Grafana 스크린샷 추가 권장** |
+| 2 | RAG 도입 후 정확도 95% | 정확도 측정 방법론 및 결과 데이터 없음 → **테스트 결과 문서화 권장** |
+| 3 | 1,000명 동시 접속 환경 | 부하 테스트 시나리오에서 확인 필요 → **k6 테스트 결과 리포트 추가 권장** |
+| 4 | MQTT 명령 지연 100ms 이내 | 지연 측정 데이터 없음 → **Prometheus 메트릭 스크린샷 추가 권장** |
 
 ---
 
