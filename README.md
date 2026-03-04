@@ -1,7 +1,5 @@
----
 
-
-# 🎬 Demo Video
+# 🎬 시연 영상[Demo Video]
 
 [![Demo Video](https://github.com/user-attachments/assets/aa4c51b1-60d9-4927-bcee-78aff0781712)](https://drive.google.com/file/d/1b-vz5VNmS-BF1424KBxGbMl939a8d0pX/view)
 ---
@@ -23,7 +21,7 @@
 
 ---
 
-# 🎬 Demo Scenario
+# 🎬 시연 흐름[Demo Scenario]
 
 ### 1️⃣ 화재 감지
 
@@ -95,7 +93,7 @@ LLM Response
 
 ---
 
-# 📌 Project Overview
+# 📌 프로젝트 개요[Project Overview]
 
 **NOVA**는 IoT 디바이스와 AI 기술을 결합하여  
 아파트 관리와 입주민 편의를 동시에 제공하는 **스마트 아파트 통합 플랫폼**입니다.
@@ -121,7 +119,7 @@ LLM Response
 
 ---
 
-# 🚀 Key Features
+# 🚀 주용 기능[Key Features]
 
 | 기능 | 설명 |
 |-----|-----|
@@ -134,7 +132,7 @@ LLM Response
 
 ---
 
-# 🏗 System Architecture
+# 🏗 시스템 아키텍쳐[System Architecture]
 
 <img width="1095" height="602" src="https://github.com/user-attachments/assets/15d59f28-63a9-4854-995c-c6c7a48aa72d">
 
@@ -148,7 +146,7 @@ LLM Response
 
 ---
 
-# 🛠 Tech Stack
+# 🛠 기술 스택[Tech Stack]
 
 ## Frontend
 
@@ -280,6 +278,7 @@ Docker Compose Deploy
 | 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
 | 천경신 | 화재 감지 시스템 · 음성 인식 |
 | 최우영 | IoT 디바이스 제어 · 센서 연동 |
+
 
 
 
