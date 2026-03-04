@@ -1,3 +1,5 @@
+
+
 <div align="center">
 
 # 🏠 NOVA - 스마트 아파트 통합관리 플랫폼
@@ -11,54 +13,36 @@
 📅 **개발 기간**  
 2026.01.14 ~ 2026.02.28  
 
-🎓 **HDC Labs 스마트 IoT 풀스택 개발자 과정**
 
-</div>
 
----
-
-# 📌 Project Overview
-
-**NOVA**는 IoT 디바이스와 AI 기술을 결합하여  
-아파트 관리와 입주민 편의를 동시에 제공하는 **스마트 아파트 통합 플랫폼**입니다.
-
-입주민은 모바일 앱을 통해
-
-- 🏠 홈 IoT 제어
-- 📅 커뮤니티 시설 예약
-- 🤖 AI 챗봇 문의
-- 📢 공지사항 확인
-- 💳 관리비 조회
-
-등의 기능을 사용할 수 있으며,
-
-관리자는 웹 대시보드를 통해
-
-- 세대 관리
-- 민원 관리
-- 시설 관리
-- 안전 관제
-
-등 단지 운영을 관리할 수 있습니다.
 
 ---
 
-# 🚀 Key Features
+# 시연 영상[Demo Video]
 
-| 기능 | 설명 |
-|-----|-----|
-| 🏠 Home IoT | MQTT 기반 LED / FAN 실시간 제어 |
-| 🤖 AI Chatbot | Pinecone 기반 RAG 챗봇 |
-| 🎤 Voice Assistant | WakeWord 기반 음성 디바이스 제어 |
-| 📅 Facility Reservation | QR 기반 시설 출입 시스템 |
-| 🔥 Fire Detection | 가스 / 온도 센서 기반 자동 관제 |
-| 📊 Admin Dashboard | 세대 / 민원 / 관리비 관리 |
+[![Demo Video](https://github.com/user-attachments/assets/aa4c51b1-60d9-4927-bcee-78aff0781712)](https://drive.google.com/file/d/1b-vz5VNmS-BF1424KBxGbMl939a8d0pX/view)
+---
+
+# 구조물 시제품[Hardware Prototype]
+
+### 전체 구조물 사진
+
+<img width="1332" height="644" src="https://github.com/user-attachments/assets/b35429ef-e9cc-4a6c-aafa-c3c71e6165da">
+
+### AI 스피커 & 시설 출입 QR 인식기 사진
+
+<img width="837" height="699" src="https://github.com/user-attachments/assets/2f442a9d-7a86-46e5-9372-8db8942f9235">
+
+### 집 내부 사진
+
+<img width="1509" height="674" src="https://github.com/user-attachments/assets/ce199543-6589-427e-8b24-04970d20f27e">
+
 
 ---
 
-# 🎬 Demo Scenario
+# 시연 흐름[Demo Scenario]
 
-### 1️⃣ 화재 감지
+### 화재 감지
 
 
 Gas Sensor → MQTT → Safety Service
@@ -71,7 +55,7 @@ Gas Sensor → MQTT → Safety Service
 
 ---
 
-### 2️⃣ 음성 디바이스 제어
+### AI 음성 인식 디바이스 제어
 
 
 WakeWord ("하이 노바")
@@ -81,7 +65,7 @@ WakeWord ("하이 노바")
 → IoT Device Control
 
 
-예시
+호출 예시
 
 
 "하이 노바, 거실 불 켜줘"
@@ -91,7 +75,7 @@ WakeWord ("하이 노바")
 
 ---
 
-### 3️⃣ RAG 챗봇
+### RAG 챗봇
 
 
 User Question
@@ -110,13 +94,63 @@ LLM Response
 
 ---
 
-# 🏗 System Architecture
+# 프로젝트 개요[Project Overview]
+
+**NOVA**는 IoT 디바이스와 AI 기술을 결합하여  
+아파트 관리와 입주민 편의를 동시에 제공하는 **스마트 아파트 통합 플랫폼**입니다.
+
+입주민은 모바일 앱을 통해
+
+🏠 홈 IoT 제어
+📅 커뮤니티 시설 예약
+🤖 AI 챗봇 문의
+📢 공지사항 확인
+💳 관리비 조회
+
+등의 기능을 사용할 수 있으며,
+
+관리자는 웹 대시보드를 통해
+
+세대 관리
+민원 관리
+시설 관리
+안전 관제
+
+등 단지 운영을 관리할 수 있습니다.
+
+---
+# 팀 구성[Team Member]
+
+| 이름 | 역할 |
+|-----|-----|
+| 안창석 | 관리자 인증 · 고지서 시스템 · 민원 시스템 |
+| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 UI |
+| 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
+| 천경신 | 화재 감지 시스템 · AI 음성 인식 · 웹 UI|
+| 최우영 | IoT 디바이스 제어 · 날씨API연동 · 센서 연동 |
+
+---
+
+# 주용 기능[Key Features]
+
+| 기능 | 설명 |
+|-----|-----|
+| 🏠 Home IoT | MQTT 기반 LED / FAN 실시간 제어 |
+| 🤖 AI Chatbot | Pinecone 기반 RAG 챗봇 |
+| 🎤 Voice Assistant | WakeWord 기반 음성 디바이스 제어 |
+| 📅 Facility Reservation | QR 기반 시설 출입 시스템 |
+| 🔥 Fire Detection | 가스 / 온도 센서 기반 자동 관제 |
+| 📊 Admin Dashboard | 세대 / 민원 / 관리비 관리 |
+
+---
+
+# 시스템 아키텍쳐[System Architecture]
 
 <img width="1095" height="602" src="https://github.com/user-attachments/assets/15d59f28-63a9-4854-995c-c6c7a48aa72d">
 
 ---
 
-# 📱 Service Screens
+# Service Screens
 
 <img width="2396" height="1287" src="https://github.com/user-attachments/assets/3dc8e47e-50e3-45d0-a1d2-9aa54c1045f5">
 
@@ -124,7 +158,7 @@ LLM Response
 
 ---
 
-# 🛠 Tech Stack
+# 기술 스택[Tech Stack]
 
 ## Frontend
 
@@ -170,13 +204,13 @@ LLM Response
 
 ---
 
-# ⚙ Key Technical Implementation
+# 중요 구현 기술[Key Technical Implementation]
 
 ## RAG 기반 AI 챗봇
 
-- OpenAI Embedding 기반 벡터 생성
-- Pinecone Top-K 유사도 검색
-- Gemini LLM 응답 생성
+OpenAI Embedding 기반 벡터 생성
+Pinecone Top-K 유사도 검색
+Gemini LLM 응답 생성
 
 ---
 
@@ -197,12 +231,12 @@ REST Polling → MQTT WebSocket
 
 복잡한 검색 조건을 처리하기 위해
 
-- QueryDSL 기반 동적 쿼리 구현
-- 관리자 대시보드 검색 성능 개선
+QueryDSL 기반 동적 쿼리 구현
+관리자 대시보드 검색 성능 개선
 
 ---
 
-# 📊 Performance Optimization
+# 성능 개선[Performance Optimization]
 
 외부 API 호출 병목 문제 해결
 
@@ -218,7 +252,7 @@ OpenWeather API 호출 성능을 개선했습니다.
 
 ---
 
-# 🧩 Infrastructure
+#  인프라 & 배포[Infrastructure & Deployment]
 
 Docker Compose 기반 통합 인프라 구성
 
@@ -247,34 +281,20 @@ Docker Compose Deploy
 
 ---
 
-# 👨‍👩‍👧‍👦 Team
 
-| 이름 | 역할 |
-|-----|-----|
-| 안창석 | 관리자 인증 · 보안 · 민원 시스템 |
-| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 챗봇 UI |
-| 양준길 | CI/CD · 로그인 인증 · 시설 예약 |
-| 천경신 | 화재 감지 시스템 · 음성 인식 |
-| 최우영 | IoT 디바이스 제어 · 센서 연동 |
 
----
 
-# 🏗 Hardware Prototype
+</div>
 
-### 전체
 
-<img width="1332" height="644" src="https://github.com/user-attachments/assets/b35429ef-e9cc-4a6c-aafa-c3c71e6165da">
 
-### AI 스피커 & 시설 출입
 
-<img width="837" height="699" src="https://github.com/user-attachments/assets/2f442a9d-7a86-46e5-9372-8db8942f9235">
 
-### 집 내부 환경
 
-<img width="1509" height="674" src="https://github.com/user-attachments/assets/ce199543-6589-427e-8b24-04970d20f27e">
 
----
 
-# 🎬 Demo Video
 
-[![Demo Video](https://github.com/user-attachments/assets/aa4c51b1-60d9-4927-bcee-78aff0781712)](https://drive.google.com/file/d/1b-vz5VNmS-BF1424KBxGbMl939a8d0pX/view)
+
+
+
+
