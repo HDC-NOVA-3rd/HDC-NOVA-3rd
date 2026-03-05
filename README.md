@@ -243,8 +243,8 @@ Docker Compose Deploy
 |-----|-----|
 | 안창석 | 관리자 JWT · 자동 고지서 · 민원 시스템 |
 | 이희원 | AI 챗봇 • RAG 파이프라인 · 앱 UI |
-| 양준길 | CI/CD · OAUTH · QR인식 • 시설 예약 |
-| 천경신 | 화재 감지 • MQTT · AI 스피커 · 웹 UI|
+| 양준길 | CI/CD · OAUTH · QR인식 • 시설 예약 • FCM |
+| 천경신 | 실시간 모니터링 시스템 • MQTT · AI 스피커 · 웹 UI|
 | 최우영 | IOT 홈 제어 · 단지 기상정보 · 모드 예약 |
 
 ---
