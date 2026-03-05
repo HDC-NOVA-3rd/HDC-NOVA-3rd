@@ -251,11 +251,11 @@ Docker Compose Deploy
 
 | 이름 | 역할 |
 |-----|-----|
-| 안창석 | 관리자 JWT · 자동 고지서 · 민원 시스템 |
-| 이희원 | AI 챗봇 · RAG 파이프라인 · 앱 UI |
-| 양준길 | CI/CD · OAUTH · QR인식 · 시설 예약 · FCM · Redis |
-| 천경신 | 실시간 모니터링 · MQTT 토픽설계 · 서버 운영 · AI 스피커 · 웹 UI|
-| 최우영 | 모드 예약 · IOT 홈 실시간 제어 · 단지 기상정보 |
+| 안창석 | 관리자 인증(JWT) · 고지서 자동 생성 · 민원 관리 시스템 |
+| 이희원 | AI 챗봇 · RAG 파이프라인 · LLM 응답 처리 · 앱 UI |
+| 양준길 | CI/CD · OAuth · QR 출입 시스템 · 시설 예약 API · FCM 알림 · Redis 캐싱 |
+| 천경신 | 실시간 모니터링 · MQTT 메시지 처리 · AI 스피커 연동 · 서버 운영 · AI 스피커 · 웹 UI|
+| 최우영 | 모드 예약 · IOT 홈 실시간 제어 · 단지 기상정보 · 외부 OpenWeather API 연동 · MQTT 통신|
 
 ---
 
@@ -306,6 +306,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
