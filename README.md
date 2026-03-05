@@ -121,7 +121,7 @@ LLM Response
 
 ---
 
-# 주용 기능[Key Features]
+# 주요 기능[Key Features]
 
 | 기능 | 설명 |
 |-----|-----|
@@ -306,6 +306,7 @@ Docker Compose Deploy
 
 
 </div>
+
 
 
 
